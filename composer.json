@@ -1,0 +1,17 @@
+{
+    "name": "brainex/shopper-grabber",
+    "description": "Grabber for shopping websites",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Salawu Oluwadamilola Ezekiel",
+            "email": "damilolaoffical@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Brainex\\ShopperGrabber\\": "src/"
+        }
+    }
+}
