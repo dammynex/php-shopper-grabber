@@ -85,7 +85,9 @@ class ResultHandler
         $doc = new DOMDocument();
         @$doc->loadHTML($this->getSource());
 
-        return $doc;
+        $this->_dom = $doc;
+
+        return $this->_dom;
     }
 
     /**
